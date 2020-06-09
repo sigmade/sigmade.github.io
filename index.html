@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<link rel="stylesheet" href="css/main.min.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="icon" href="/img/favicon.ico">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/main.css">
+    <title><?=$website_title?></title>
+</head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+ <a class="navbar-brand" href="../index.php">IP Helper</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+
+        <li class="nav-item">
+        <a  href="../controllers/balance.php">Остатки</a>
+      </li>
+      <li class="nav-item">
+        <a  href="../controllers/insert.php">Поступление</a>
+      </li>
+      <li class="nav-item">
+        <a href="../controllers/extr.php">Выдача</a>
+      </li>
+      <li class="nav-item">
+        <a  href="../controllers/load.php">Загрузка документов</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+            </div>
+                <div class="col-10 mt-1">
+                    <h2 class="display-5">IP Helper - помощник в веб-разработке</h2>
+                    <div class="project-item">
+                    <p class="lead"><img src="/img/1.png" alt="альтернативный текст" class="img-fluid mt-3 mb-3"></p>
+                    </div>
+                    <hr class="my-4">
+                    <ul class="list-group">
+  <li class="list-group-item">Cras justo odio</li>
+  <li class="list-group-item">Dapibus ac facilisis in</li>
+  <li class="list-group-item">Morbi leo risus</li>
+  <li class="list-group-item">Porta ac consectetur ac</li>
+  <li class="list-group-item">Vestibulum at eros</li>
+</ul>
+
+                    <div class="m-3">
+                    <p>Исходный код проекта <a href="https://github.com/sigmade/iphelper" >https://github.com/sigmade/iphelper</a></p>
+                    </div>
+                    <div class="mb-5">
+                    <a href="https://github.com/sigmade/iphelper/releases/download/0.9/Setup.msi" class="btn btn btn-success">Загрузить бета-версию</a>
+                    </div>
+                    </div>
+            <div class="col">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">github.com/sigmade &copy</span>
+      </div>
+    </footer>
+</body>
+</html>
